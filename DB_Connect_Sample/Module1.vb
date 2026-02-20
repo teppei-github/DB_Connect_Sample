@@ -1,7 +1,7 @@
 ﻿Imports Microsoft.Data.SqlClient ' 新しい推奨パッケージ
 
 Module Module1
-    Sub Main()
+    Sub DB_Connect()
         ' 接続文字列（環境に合わせて変更）
         Dim connectionString As String =
             "Server=localhost;Database=TestDB;Integrated Security=True;TrustServerCertificate=True"
