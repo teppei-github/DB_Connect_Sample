@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -47,6 +47,7 @@ Partial Class Form1
         ' 
         ' STEP_Scholl_Box
         ' 
+        STEP_Scholl_Box.DropDownStyle = ComboBoxStyle.DropDownList
         STEP_Scholl_Box.FormattingEnabled = True
         STEP_Scholl_Box.Location = New Point(227, 38)
         STEP_Scholl_Box.Name = "STEP_Scholl_Box"
