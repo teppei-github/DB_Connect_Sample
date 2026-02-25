@@ -23,6 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Button1 = New Button()
+        Button2 = New Button()
         Label1 = New Label()
         STEP_Scholl_Box = New ComboBox()
         SuspendLayout()
@@ -35,6 +36,15 @@ Partial Class Form1
         Button1.TabIndex = 0
         Button1.Text = "接続"
         Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Button2
+        ' 
+        Button2.Location = New Point(340, 348)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(198, 72)
+        Button2.TabIndex = 3
+        Button2.Text = "表示"
+        Button2.UseVisualStyleBackColor = True
         ' 
         ' Label1
         ' 
@@ -61,6 +71,7 @@ Partial Class Form1
         ClientSize = New Size(800, 450)
         Controls.Add(STEP_Scholl_Box)
         Controls.Add(Label1)
+        Controls.Add(Button2)
         Controls.Add(Button1)
         Name = "Form1"
         Text = "Form1"
@@ -69,6 +80,7 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents STEP_Scholl_Box As ComboBox
 
